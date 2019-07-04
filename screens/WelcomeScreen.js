@@ -16,9 +16,9 @@ class WelcomeScreen extends React.Component{
                 key={index}
                 style={{flex:1,backgroundColor: 'skyblue',width:SCREEN_WIDTH, marginTop:"auto",marginBottom:"auto"}}
                 >
-                    <Text style={{fontSize:'30px', textAlign:"center"}}>{slide.title}</Text>
-                    <Text style={{fontSize:'30px', textAlign:"center"}}>{slide.text}</Text>
-                    <Text style={{fontSize:'30px', textAlign:"center"}}>{index + 1 } / 3</Text>
+                    <Text style={{fontSize:30, textAlign:"center"}}>{slide.title}</Text>
+                    <Text style={{fontSize:30, textAlign:"center"}}>{slide.text}</Text>
+                    <Text style={{fontSize:30, textAlign:"center"}}>{index + 1 } / 3</Text>
                 </View>
             );
         });
